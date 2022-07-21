@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_All_inbox"
+
+            android:title="All inbox" />
+        <item
+            android:id="@+id/nav_primary"
+
+            android:title="Primary" />
+        <item
+            android:id="@+id/nav_social"
+
+            android:title="Social" />
+
+    </group>
+
+    <item android:title="All labels">
+        <menu>
+            <item
+                android:id="@+id/nav_starred"
+
+                android:title="Starred" />
+            <item
+                android:id="@+id/nav_snoozed"
+
+                android:title="Snoozed" />
+
+
+
+        </menu>
+    </item>
+
+</menu>
